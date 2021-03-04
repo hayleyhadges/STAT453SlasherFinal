@@ -1,0 +1,134 @@
+---
+title: "slasher"
+output: html_document
+---
+
+```{r, message=FALSE}
+library(readr)
+library(survival)
+library(dplyr)
+Slasher <- read_csv("~/STAT453/Slasher.csv")
+```
+EXPONENTIAL 
+
+```{r}
+#Fit an Exponential Model
+m = survreg( Surv(duration_percentage, status)~1 , dist="exponential", data=Slasher)
+rate = 1 / exp(-0.1704236 )
+
+#Exponential Density Curve
+curve( dexp( x, rate = 1 / exp(-0.1704236 )) , from=0 , to=1 , xlab="Duration", ylab="Density" )
+
+#Exponential CDF
+curve( pexp(x,rate=1 / exp(-0.1704236 )) , from=0, to=1, xlab="Duration" , ylab="Cumulative Proportion" )
+
+#Exponential Survival Curve
+curve( 1-pexp(x,rate=1 / exp(-0.1704236 )) , from=0, to=1, xlab="Duration", ylab="Survival Proportion" )
+
+# Fit an Exponential Hazard Function
+hexp = function(x,lambda) { dexp(x,lambda) / ( 1-pexp(x,lambda) ) }
+#Plot an Exponential Hazard Function
+curve( hexp(x,rate), from=0, to=1, ylim=c(0,3), ylab="Hazard", xlab="Time" )
+```
+
+WEIBULL
+
+
+```{r}
+w = survreg( Surv(duration_percentage, status)~1 , dist="weibull", data=Slasher)
+shape = 1 / w$scale
+scale = exp( w$coefficients )
+
+curve( dweibull( x, shape=shape, scale=scale) , from=0 , to=1 , xlab="Duration", ylab="Density" )
+curve( pweibull(x,shape=shape,scale=scale) , from=0, to=1, xlab="Duration" , ylab="Cumulative Proportion" )
+curve( 1-pweibull(x,shape=shape,scale=scale) , from=0, to=1, xlab="Duration", ylab="Survival Proportion" )
+
+S = function(x) 1 - pweibull( x , shape=shape , scale=scale )
+integrate( S , lower=0 , upper=Inf )
+
+
+#Fit a Weibull Hazard Function
+hweibull = function(x,shape,scale) { dweibull(x,shape,scale) / (1-pweibull(x,shape,scale)) }
+
+#Plot a Weibull Hazard Function
+curve(hweibull(x,shape,scale), from=0, to=5, ylim=c(0,10), ylab="Hazard", xlab="Time")
+```
+WEIBULL PROMISCUITY
+
+```{r}
+w = survreg( Surv(duration_percentage, status)~promiscuity , dist="weibull", data=Slasher)
+shape = 1 / w$scale
+scale = exp( w$coefficients )
+
+curve( dweibull( x, shape=shape, scale=scale) , from=0 , to=1 , xlab="Duration", ylab="Density" )
+curve( pweibull(x,shape=shape,scale=scale) , from=0, to=1, xlab="Duration" , ylab="Cumulative Proportion" )
+curve( 1-pweibull(x,shape=shape,scale=scale) , from=0, to=1, xlab="Duration", ylab="Survival Proportion" )
+
+S = function(x) 1 - pweibull( x , shape=shape , scale=scale )
+integrate( S , lower=0 , upper=Inf )
+
+
+#Fit a Weibull Hazard Function
+hweibull = function(x,shape,scale) { dweibull(x,shape,scale) / (1-pweibull(x,shape,scale)) }
+
+#Plot a Weibull Hazard Function
+curve(hweibull(x,shape,scale), from=0, to=5, ylim=c(0,10), ylab="Hazard", xlab="Time")
+```
+
+KAPLAN MEIER
+
+```{r}
+KM = survfit( Surv(duration_percentage,status)~1 , data=Slasher )
+plot( KM , conf.int=FALSE )
+
+AUCKM = function(survobj,duration)
+{
+base=c(0,summary(survobj)$time,max(duration))
+heights=c(1,summary(survobj)$surv)
+new=c()
+for(i in 1:length(heights)) { new=c(new,(base[i+1]-base[i])*heights[i]) }
+c(sum(new))
+}
+
+AUCKM( KM , Slasher$duration_percentage )
+```
+
+KAPLAN MEIER 
+
+```{r}
+survdiff( Surv(duration_percentage,status) ~ promiscuity , data=Slasher )
+KM = survfit( Surv(duration_percentage,status)~promiscuity , data=Slasher )
+plot( KM , conf.int=FALSE )
+
+1 - pchisq( 1.018 +  0.966 , df=1 )
+
+(75/84.3)/(98/88.7)
+```
+
+```{r}
+survdiff( Surv(duration_percentage,status) ~ drugs_alcohol , data=Slasher )
+KM = survfit( Surv(duration_percentage,status)~drugs_alcohol , data=Slasher )
+plot( KM , conf.int=FALSE )
+1 - pchisq(  0.159 +  0.239 , df=1 )
+
+(108/103.9)/(65/69.1)
+```
+
+```{r}
+survdiff( Surv(duration_percentage,status) ~ fights_back , data=Slasher )
+KM = survfit( Surv(duration_percentage,status)~fights_back , data=Slasher )
+plot( KM , conf.int=FALSE )
+1 - pchisq(  27.2 +  41.6 , df=1 )
+
+(158/104.7)/(15/68.3)
+```
+
+```{r}
+survdiff( Surv(duration_percentage,status) ~ gender , data=Slasher )
+KM = survfit( Surv(duration_percentage,status)~gender , data=Slasher )
+plot( KM , conf.int=FALSE )
+1 - pchisq(  0.734 +   0.742, df=1 )
+
+(79/87)/(94/86)
+```
+

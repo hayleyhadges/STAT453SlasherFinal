@@ -1,0 +1,223 @@
+character_id,movie_title,slasher_name,year_released,decade_released,is_killed,time_killed,movie_duration,duration_percentage,status,gender,ethnicity,age_group,promiscuity,drugs_alcohol,fights_back
+H1,Halloween,Michael Myers,1978,70,TRUE,5,91,0.0549,1,Female,White,18,1,0,0
+H2,Halloween,Michael Myers,1978,70,TRUE,54,91,0.5934,1,Female,White,18,1,1,0
+H3,Halloween,Michael Myers,1978,70,TRUE,65,91,0.7142,1,Male,White,18,1,1,0
+H4,Halloween,Michael Myers,1978,70,TRUE,67,91,0.7362,1,Female,White,18,1,1,0
+H5,Halloween,Michael Myers,1978,70,FALSE,NA,91,1,0,Female,White,18,0,1,1
+H6,Halloween,Michael Myers,1978,70,FALSE,NA,91,1,0,Male,White,45,0,0,0
+TC1,Texas Chainsaw Massacre,Leatherface,1974,70,TRUE,35,90,0.3889,1,Male,White,20,1,0,0
+TC2,Texas Chainsaw Massacre,Leatherface,1974,70,TRUE,46,90,0.5111,1,Male,White,30,0,0,0
+TC3,Texas Chainsaw Massacre,Leatherface,1974,70,TRUE,46,90,0.5111,1,Female,White,20,1,0,0
+TC4,Texas Chainsaw Massacre,Leatherface,1974,70,TRUE,52,90,0.5777,1,Male,White,20,0,0,0
+TC5,Texas Chainsaw Massacre,Leatherface,1974,90,FALSE,NA,90,1,0,Female,White,20,1,0,1
+FG1,The Final Girls,Billy Murphy,2015,10,TRUE,28,91,0.3077,1,Male,Black,18,1,0,0
+FG2,The Final Girls,Billy Murphy,2015,10,TRUE,29,91,0.3187,1,Female,White,18,1,0,0
+FG3,The Final Girls,Billy Murphy,2015,10,TRUE,44,91,0.4835,1,Male,White,18,0,0,0
+FG4,The Final Girls,Billy Murphy,2015,10,TRUE,45,91,0.4945,1,Male,White,18,1,0,0
+FG5,The Final Girls,Billy Murphy,2015,10,TRUE,45,91,0.4945,1,Female,Mixed: Latina/White,18,0,1,0
+FG6,The Final Girls,Billy Murphy,2015,10,TRUE,60,91,0.6593,1,Female,White,18,1,0,0
+FG7,The Final Girls,Billy Murphy,2015,10,TRUE,61,91,0.6703,1,Male,Black,18,0,0,0
+FG8,The Final Girls,Billy Murphy,2015,10,TRUE,62,91,0.6813,1,Female,White,18,0,0,1
+FG9,The Final Girls,Billy Murphy,2015,10,TRUE,62,91,0.6813,1,Female,Mixed: Iraqi/White,18,0,0,1
+FG10,The Final Girls,Billy Murphy,2015,10,TRUE,76,91,0.8352,1,Female,White,18,1,0,1
+FG11,The Final Girls,Billy Murphy,2015,10,FALSE,NA,91,1,0,Female,White,18,0,0,1
+FG12,The Final Girls,Billy Murphy,2015,10,FALSE,NA,91,1,0,Male,White,18,0,0,1
+C1,Candyman,Candyman,1992,90,TRUE,5,98,0.0510,1,Female,White,25,1,0,0
+C2,Candyman,Candyman,1992,90,TRUE,57,98,0.5816,1,Female,Black,25,0,1,0
+C3,Candyman,Candyman,1992,90,TRUE,71,98,0.7245,1,Male,White,45,0,0,0
+C4,Candyman,Candyman,1992,90,TRUE,86,98,0.8776,1,Female,White,25,0,1,1
+C5,Candyman,Candyman,1992,90,TRUE,94,98,0.9592,1,Male,White,30,1,0,0
+C6,Candyman,Candyman,1992,90,FALSE,NA,98,1,0,Female,Black,25,0,0,0
+IKWYDLS1,I Know What You Did Last Summer,Ben Willis,1997,90,TRUE,38,101,0.3762,1,Male,White,19,0,0,0
+IKWYDLS2,I Know What You Did Last Summer,Ben Willis,1997,90,TRUE,72,101,0.7129,1,Male,White,19,1,1,0
+IKWYDLS3,I Know What You Did Last Summer,Ben Willis,1997,90,TRUE,76,101,0.7525,1,Male,White,35,0,0,0
+IKWYDLS4,I Know What You Did Last Summer,Ben Willis,1997,90,TRUE,78,101,0.7723,1,Female,White,25,0,0,0
+IKWYDLS5,I Know What You Did Last Summer,Ben Willis,1997,90,TRUE,82,101,0.8119,1,Female,White,19,1,0,0
+IKWYDLS6,I Know What You Did Last Summer,Ben Willis,1997,90,FALSE,NA,101,1,0,Female,White,19,1,0,1
+IKWYDLS7,I Know What You Did Last Summer,Ben Willis,1997,90,FALSE,NA,101,1,0,Male,White,19,1,0,1
+S1,Scream,Ghostface,1996,90,TRUE,8,111,0.0721,1,Male,White,18,1,0,0
+S2,Scream,Ghostface,1996,90,TRUE,12,111,0.1081,1,Female,White,18,1,0,1
+S3,Scream,Ghostface,1996,90,TRUE,53,111,0.4774,1,Male,White,50,0,0,0
+S4,Scream,Ghostface,1996,90,TRUE,67,111,0.6036,1,Female,White,18,1,1,1
+S5,Scream,Ghostface,1996,90,TRUE,83,111,0.7477,1,Male,White,35,0,0,0
+S6,Scream,Ghostface,1996,90,FALSE,NA,111,1,0,Female,White,18,1,1,1
+S7,Scream,Ghostface,1996,90,FALSE,NA,111,1,0,Male,White,18,0,1,0
+SC1,Sleepaway Camp,Peter Baker,1983,80,TRUE,35,88,0.3977272727,1,Male,White,15,0,0,0
+SC2,Sleepaway Camp,Peter Baker,1983,80,TRUE,52,88,0.5909090909,1,Male,White,16,0,0,0
+SC3,Sleepaway Camp,Peter Baker,1983,80,TRUE,67,88,0.7613636364,1,Female,White,18,1,0,0
+SC4,Sleepaway Camp,Peter Baker,1983,80,TRUE,75,88,0.8522727273,1,Female,White,16,1,0,0
+SC5,Sleepaway Camp,Peter Baker,1983,80,TRUE,76,88,0.8636363636,1,Male,White,13,0,0,0
+SC6,Sleepaway Camp,Peter Baker,1983,80,TRUE,76,88,0.8636363636,1,Male,White,13,0,0,0
+SC7,Sleepaway Camp,Peter Baker,1983,80,TRUE,76,88,0.8636363636,1,Male,White,13,0,0,0
+SC8,Sleepaway Camp,Peter Baker,1983,80,TRUE,76,88,0.8636363636,1,Male,White,13,0,0,0
+SC9,Sleepaway Camp,Peter Baker,1983,80,TRUE,79,88,0.8977272727,1,Male,White,50,1,0,0
+SC10,Sleepaway Camp,Peter Baker,1983,80,TRUE,83,88,0.9431818182,1,Male,White,15,1,0,0
+SC11,Sleepaway Camp,Peter Baker,1983,80,FALSE,NA,88,1,0,Male,White,15,0,0,0
+BC1,Black Christmas,Billy,1974,70,TRUE,11,98,0.1122,1,Female,White,21,0,1,0
+BC2,Black Christmas,Billy,1974,70,TRUE,41,98,0.4183,1,Female,White,50,0,1,0
+BC3,Black Christmas,Billy,1974,70,TRUE,43,98,0.4387,1,Female,White,21,0,1,0
+BC4,Black Christmas,Billy,1974,70,TRUE,65,98,0.6632,1,Female,White,21,1,1,0
+BC5,Black Christmas,Billy,1974,70,TRUE,76,98,0.7755,1,Female,White,40,0,0,0
+BC6,Black Christmas,Billy,1974,70,TRUE,80,98,0.8163,1,Male,White,35,0,0,0
+BC7,Black Christmas,Billy,1974,70,FALSE,NA,98,1,0,Female,White,21,1,1,1
+NOES1,The Nightmare on Elm Street,Freddy Krueger,1984,80,TRUE,17,101,0.1683,1,Female,White,17,1,0,0
+NOES2,The Nightmare on Elm Street,Freddy Krueger,1984,80,TRUE,45,101,0.4455,1,Male,White,18,1,1,0
+NOES3,The Nightmare on Elm Street,Freddy Krueger,1984,80,TRUE,68,101,0.6732,1,Male,White,17,1,0,0
+NOES4,The Nightmare on Elm Street,Freddy Krueger,1984,80,TRUE,84,101,0.8316,1,Female,White,45,1,0,0
+NOES5,The Nightmare on Elm Street,Freddy Krueger,1984,80,FALSE,NA,101,1,0,Female,White,17,0,0,1
+FT1,Friday the 13th,Pamela Voorhees,1980,80,TRUE,4,96,0.0416,1,Male,White,17,1,0,0
+FT2,Friday the 13th,Pamela Voorhees,1980,80,TRUE,5,96,0.0521,1,Female,White,17,1,0,0
+FT3,Friday the 13th,Pamela Voorhees,1980,80,TRUE,22,96,0.2291,1,Female,White,18,1,0,0
+FT4,Friday the 13th,Pamela Voorhees,1980,80,TRUE,40,96,0.4166,1,Male,White,18,1,1,0
+FT5,Friday the 13th,Pamela Voorhees,1980,80,TRUE,42,96,0.4375,1,Male,White,18,1,1,0
+FT6,Friday the 13th,Pamela Voorhees,1980,80,TRUE,46,96,0.4791,1,Female,White,17,1,0,0
+FT7,Friday the 13th,Pamela Voorhees,1980,80,TRUE,64,96,0.6666,1,Male,White,18,1,1,0
+FT8,Friday the 13th,Pamela Voorhees,1980,80,TRUE,70,96,0.7291,1,Male,White,18,1,0,0
+FT9,Friday the 13th,Pamela Voorhees,1980,80,TRUE,74,96,0.7708,1,Female,White,17,1,0,0
+FT10,Friday the 13th,Pamela Voorhees,1980,80,FALSE,NA,96,1,0,Female,White,17,0,0,1
+UF1,Unfriended,Billie,2014,10,TRUE,27,83,0.3253,1,Female,White,18,0,1,0
+UF2,Unfriended,Billie,2014,10,TRUE,47,83,0.5662,1,Male,White,18,0,1,0
+UF3,Unfriended,Billie,2014,10,TRUE,64,83,0.771,1,Male,White,18,1,1,0
+UF4,Unfriended,Billie,2014,10,TRUE,69,83,0.8313,1,Female,White,18,1,1,0
+UF5,Unfriended,Billie,2014,10,TRUE,73,83,0.8795,1,Male,White,18,1,1,0
+UF6,Unfriended,Billie,2014,10,TRUE,78,83,0.9397,1,Female,White,18,1,1,0
+V1,Valentine,Jeremy Melton,2001,0,TRUE,12,96,0.1250,1,Female,White,25,0,0,0
+V2,Valentine,Jeremy Melton,2001,0,TRUE,36,96,0.3750,1,Female,White,25,1,0,0
+V3,Valentine,Jeremy Melton,2001,0,TRUE,48,96,0.5000,1,Male,White,25,1,0,0
+V4,Valentine,Jeremy Melton,2001,0,TRUE,58,96,0.6042,1,Male,White,25,0,0,0
+V5,Valentine,Jeremy Melton,2001,0,TRUE,72,96,0.7500,1,Female,White,25,0,0,1
+V6,Valentine,Jeremy Melton,2001,0,TRUE,78,96,0.8125,1,Female,White,25,1,1,0
+V7,Valentine,Jeremy Melton,2001,0,TRUE,82,96,0.8542,1,Male,White,45,1,0,0
+V8,Valentine,Jeremy Melton,2001,0,TRUE,89,96,0.9271,1,Female,White,25,0,0,0
+V8,Valentine,Jeremy Melton,2001,0,FALSE,NA,96,1,0,Female,White,25,0,1,1
+HF1,Hell Fest,The Other,2018,10,TRUE,4,90,0.0444,1,Female,White,18,0,0,0
+HF2,Hell Fest,The Other,2018,10,TRUE,21,90,0.2333,1,Female,White,18,0,0,0
+HF3,Hell Fest,The Other,2018,10,TRUE,35,90,0.3889,1,Male,White,20,0,0,0
+HF4,Hell Fest,The Other,2018,10,TRUE,52,90,0.5778,1,Male,Filipino,20,1,0,0
+HF5,Hell Fest,The Other,2018,10,TRUE,67,90,0.7444,1,Female,White,20,1,1,0
+HF6,Hell Fest,The Other,2018,10,TRUE,67,90,0.7444,1,Male,White,20,0,0,0
+HF7,Hell Fest,The Other,2018,10,FALSE,NA,90,1,0,Female,White,20,0,0,1
+HF8,Hell Fest,The Other,2018,10,FALSE,NA,90,1,0,Female,Black,20,0,0,0
+MBV1,My Bloody Valentine,Harry Warden,1981,80,TRUE,3,93,0.0323,1,Female,White,24,1,0,0
+MBV2,My Bloody Valentine,Harry Warden,1981,80,TRUE,13,93,0.1397,1,Male,White,45,1,0,0
+MBV3,My Bloody Valentine,Harry Warden,1981,80,TRUE,13,93,0.1397,1,Male,White,50,1,0,0
+MBV4,My Bloody Valentine,Harry Warden,1981,80,TRUE,19,93,0.2043,1,Female,White,65,0,0,0
+MBV5,My Bloody Valentine,Harry Warden,1981,80,TRUE,39,93,0.4193,1,Male,White,55,1,0,0
+MBV6,My Bloody Valentine,Harry Warden,1981,80,TRUE,44,93,0.4731,1,Male,White,23,1,0,0
+MBV6,My Bloody Valentine,Harry Warden,1981,80,TRUE,53,93,0.5698,1,Female,White,22,1,1,0
+MBV7,My Bloody Valentine,Harry Warden,1981,80,TRUE,68,93,0.7311,1,Male,White,23,1,1,0
+MBV8,My Bloody Valentine,Harry Warden,1981,80,TRUE,68,93,0.7311,1,Female,White,23,1,1,0
+MBV9,My Bloody Valentine,Harry Warden,1981,80,TRUE,70,93,0.7526,1,Male,White,24,0,1,0
+MBV10,My Bloody Valentine,Harry Warden,1981,80,TRUE,77,93,0.8279,1,Male,White,23,0,1,0
+MBV11,My Bloody Valentine,Harry Warden,1981,80,TRUE,82,93,0.8817,1,Female,White,22,1,1,0
+MBV12,My Bloody Valentine,Harry Warden,1981,80,FALSE,NA,93,1,0,Male,White,23,1,1,1
+MBV13,My Bloody Valentine,Harry Warden,1981,80,FALSE,NA,93,1,0,Female,White,23,1,1,1
+CP1,Child's Play,Charles Lee Ray,1988,80,TRUE,23,88,0.2614,1,Female,White ,35,0,0,0
+CP2,Child's Play,Charles Lee Ray,1988,80,TRUE,38,88,0.4318,1,Male,White ,30,0,0,0
+CP3,Child's Play,Charles Lee Ray,1988,80,TRUE,63,88,0.7159,1,Male,Black,45,0,0,0
+CP4,Child's Play,Charles Lee Ray,1988,80,TRUE,67,88,0.7614,1,Male,White,60,0,0,0
+CP5,Child's Play,Charles Lee Ray,1988,80,FALSE,NA,88,1,0,Male,White,6,0,0,1
+CP6,Child's Play,Charles Lee Ray,1988,80,FALSE,NA,88,1,0,Female,White,35,0,0,1
+CP7,Child's Play,Charles Lee Ray,1988,80,FALSE,NA,88,1,0,Male,White,35,0,1,1
+JF1,Jack Frost,Jack Frost,1997,90,TRUE,5,90,0.0556,1,Male,White,35,0,0,0
+JF2,Jack Frost,Jack Frost,1997,90,TRUE,18,90,0.2,1,Male,White,70,0,0,0
+JF3,Jack Frost,Jack Frost,1997,90,TRUE,26,90,0.2889,1,Male,White,16,0,0,0
+JF4,Jack Frost,Jack Frost,1997,90,TRUE,34,90,0.3778,1,Male,White,50,0,1,0
+JF5,Jack Frost,Jack Frost,1997,90,TRUE,34,90,0.3778,1,Female,White,50,0,0,0
+JF6,Jack Frost,Jack Frost,1997,90,TRUE,47,90,0.5222,1,Male,White,35,0,0,0
+JF7,Jack Frost,Jack Frost,1997,90,TRUE,56,90,0.6222,1,Male,White,18,1,1,0
+JF8,Jack Frost,Jack Frost,1997,90,TRUE,56,90,0.6222,1,Female,White,18,1,1,0
+JF9,Jack Frost,Jack Frost,1997,90,TRUE,77,90,0.8556,1,Male,White,50,0,0,1
+JF10,Jack Frost,Jack Frost,1997,90,FALSE,NA,90,1,0,Male,White,35,0,0,1
+JF11,Jack Frost,Jack Frost,1997,90,FALSE,NA,90,1,0,Male,White,50,0,0,1
+JF12,Jack Frost,Jack Frost,1997,90,FALSE,NA,90,1,0,Male,White,45,0,0,1
+JF13,Jack Frost,Jack Frost,1997,90,FALSE,NA,90,1,0,Male,White,13,0,0,0
+SPM1,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,5,82,0.061,1,Female,White,23,1,0,0
+SPM2,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,16,82,0.1951,1,Female,White,18,1,0,0
+SPM3,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,32,82,0.3902,1,Male,White,40,0,1,0
+SPM4,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,45,82,0.5487,1,Male,White,18,1,1,0
+SPM5,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,46,82,0.5609,1,Female,White,18,0,1,0
+SPM6,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,47,82,0.5731,1,Male,White,20,0,0,0
+SPM7,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,53,82,0.6463,1,Male,White,18,1,1,0
+SPM8,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,56,82,0.6829,1,Male,White,18,1,1,0
+SPM9,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,58,82,0.7073,1,Female,Black,18,1,1,0
+SPM10,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,63,82,0.7682,1,Female,White,18,1,1,1
+SPM11,Slumber Party Massacre,Russ Thorn,1982,80,TRUE,70,82,0.8536,1,Female,White,32,0,0,1
+SPM12,Slumber Party Massacre,Russ Thorn,1982,80,FALSE,NA,82,1,0,Female,White,18,1,1,1
+SPM13,Slumber Party Massacre,Russ Thorn,1982,80,FALSE,NA,82,1,0,Female,White,18,1,0,1
+SPM14,Slumber Party Massacre,Russ Thorn,1982,80,FALSE,NA,82,1,0,Female,White,14,1,0,1
+HW1,House of Wax,Vincent Sinclair,2005,0,TRUE,55,112,0.4911,1,Male,White,20,1,0,0
+HW2,House of Wax,Vincent Sinclair,2005,0,TRUE,68,112,0.6071,1,Male,White,20,0,0,0
+HW3,House of Wax,Vincent Sinclair,2005,0,TRUE,73,112,0.6518,1,Male,Black,20,1,1,0
+HW4,House of Wax,Vincent Sinclair,2005,0,TRUE,77,112,0.6875,1,Female,White,20,1,0,1
+HW5,House of Wax,Vincent Sinclair,2005,0,FALSE,NA,112,1,0,Male,White,20,1,1,1
+HW6,House of Wax,Vincent Sinclair,2005,0,FALSE,NA,112,1,0,Female,White,20,1,0,1
+MST1,My Soul to Take,Riverton Ripper,2010,10,TRUE,17,107,0.1589,1,Male,Asian,16,0,0,0
+MST2,My Soul to Take,Riverton Ripper,2010,10,TRUE,48,107,0.4486,1,Female,White,16,0,0,0
+MST3,My Soul to Take,Riverton Ripper,2010,10,TRUE,57,107,0.5327,1,Male,White,16,1,0,0
+MST4,My Soul to Take,Riverton Ripper,2010,10,TRUE,59,107,0.5514,1,Female,White,16,0,0,0
+MST5,My Soul to Take,Riverton Ripper,2010,10,TRUE,80,107,0.7477,1,Female,White,45,0,0,0
+MST6,My Soul to Take,Riverton Ripper,2010,10,TRUE,82,107,0.7664,1,Male,White,45,0,0,1
+MST7,My Soul to Take,Riverton Ripper,2010,10,TRUE,88,107,0.8224,1,Male,Black,16,0,0,0
+MST8,My Soul to Take,Riverton Ripper,2010,10,FALSE,NA,107,1,0,Female,White,19,0,1,0
+MST9,My Soul to Take,Riverton Ripper,2010,10,FALSE,NA,107,1,0,Male,White,16,0,0,1
+BLML1,All the Boys Love Mandy Lane,Emmett and Mandy Lane ,2006,0,TRUE,8,90,0.0889,1,Male,White,17,1,1,0
+BLML2,All the Boys Love Mandy Lane,Emmett and Mandy Lane ,2006,0,TRUE,37,90,0.4111,1,Female,White,17,1,1,0
+BLML3,All the Boys Love Mandy Lane,Emmett and Mandy Lane ,2006,0,TRUE,49,90,0.5444,1,Male,White,17,1,1,0
+BLML4,All the Boys Love Mandy Lane,Emmett and Mandy Lane ,2006,0,TRUE,61,90,0.6778,1,Male,Black,17,1,1,1
+BLML5,All the Boys Love Mandy Lane,Emmett and Mandy Lane ,2006,0,TRUE,72,90,0.8000,1,Male,White,17,1,1,0
+BLML6,All the Boys Love Mandy Lane,Emmett and Mandy Lane ,2006,0,TRUE,78,90,0.8667,1,Female,White,17,1,1,0
+BLML7,All the Boys Love Mandy Lane,Emmett and Mandy Lane ,2006,0,FALSE,NA,90,1.0000,0,Male,White,25,0,0,1
+PN1,Prom Night,Richard Fenton,2008,0,TRUE,24,87,0.2759,1,Female,White,40,0,0,0
+PN2,Prom Night,Richard Fenton,2008,0,TRUE,33,87,0.3793,1,Female,White,18,0,0,0
+PN3,Prom Night,Richard Fenton,2008,0,TRUE,41,87,0.4713,1,Male,White,18,0,1,0
+PN4,Prom Night,Richard Fenton,2008,0,TRUE,47,87,0.5402,1,Male,White,35,0,0,0
+PN5,Prom Night,Richard Fenton,2008,0,TRUE,56,87,0.6437,1,Female,Black,18,1,0,0
+PN6,Prom Night,Richard Fenton,2008,0,TRUE,80,87,0.9195,1,Male,White,35,0,0,0
+PN7,Prom Night,Richard Fenton,2008,0,TRUE,80,87,0.9195,1,Male,White,18,0,0,0
+PN8,Prom Night,Richard Fenton,2008,0,FALSE,NA,87,1,0,Female,White,18,0,0,1
+PN9,Prom Night,Richard Fenton,2008,0,FALSE,NA,87,1,0,Male,Black,40,0,0,1
+SW1,Savage Weekend,Greg Pettis,1979,70,TRUE,52,86,0.6047,1,Male,White,40,1,1,0
+SW2,Savage Weekend,Greg Pettis,1979,70,TRUE,65,86,0.7558,1,Male,White,40,0,1,0
+SW3,Savage Weekend,Greg Pettis,1979,70,TRUE,70,86,0.8140,1,Male,White,40,1,1,0
+SW4,Savage Weekend,Greg Pettis,1979,70,TRUE,80,86,0.9302,1,Female,White,40,1,1,0
+SW5,Savage Weekend,Greg Pettis,1979,70,FALSE,NA,86,1,0,Female,White,40,1,1,0
+SW6,Savage Weekend,Greg Pettis,1979,70,FALSE,NA,86,1,0,Male,White,40,1,0,1
+T1,Thriller,Chauncey Page,2018,10,TRUE,4,87,0.04597,1,Female,Black,12,0,0,0
+T2,Thriller,Chauncey Page,2018,10,TRUE,31,87,0.3563,1,Male,Black,25,0,1,0
+T3,Thriller,Chauncey Page,2018,10,TRUE,50,87,0.5747,1,Male,Black,18,1,1,0
+T4,Thriller,Derrick Jackson,2018,10,TRUE,66,87,0.7586,1,Male,Latinx,18,1,1,0
+T5,Thriller,Derrick Jackson,2018,10,TRUE,67,87,0.7701,1,Female,Latinx,18,1,1,0
+T6,Thriller,Derrick Jackson,2018,10,TRUE,69,87,0.7931,1,Male,Black,25,1,0,0
+T7,Thriller,Derrick Jackson,2018,10,TRUE,69,87,0.7931,1,Female,Black,18,1,1,0
+T8,Thriller,Derrick Jackson,2018,10,TRUE,75,87,0.862,1,Male,Black,18,1,1,0
+T9,Thriller,Derrick Jackson,2018,10,FALSE,NA,87,1,0,Female,Black,18,0,1,1
+T10,Thriller,Derrick Jackson,2018,10,FALSE,NA,87,1,0,Male,Black,18,0,1,1
+T11,Thriller,Derrick Jackson,2018,10,FALSE,NA,87,1,0,Female,Black,18,1,1,1
+UL1,Urban Legend,Brenda Bates,1998,90,TRUE,8,100,0.08,1,Female,White,20,0,0,0
+UL2,Urban Legend,Brenda Bates,1998,90,TRUE,30,100,0.3,1,Male,White,20,1,0,0
+UL3,Urban Legend,Brenda Bates,1998,90,TRUE,40,100,0.4,1,Female,White,20,1,0,0
+UL4,Urban Legend,Brenda Bates,1998,90,TRUE,59,100,0.59,1,Male,White,70,0,0,0
+UL5,Urban Legend,Brenda Bates,1998,90,TRUE,68,100,0.68,1,Male,White,20,1,1,0
+UL6,Urban Legend,Brenda Bates,1998,90,TRUE,72,100,0.72,1,Female,White,20,1,0,0
+UL7,Urban Legend,Brenda Bates,1998,90,FALSE,NA,100,1,0,Female,White,20,1,0,1
+UL8,Urban Legend,Brenda Bates,1998,90,FALSE,NA,100,1,0,Male,White,20,1,0,1
+TTDS1,The Town That Dreaded Sundown,The Phantom,1976,70,TRUE,20,89,0.2247,1,Male,White,18,1,0,0
+TTDS2,The Town That Dreaded Sundown,The Phantom,1976,70,TRUE,21,89,0.2359,1,Female,White,18,1,0,0
+TTDS3,The Town That Dreaded Sundown,The Phantom,1976,70,TRUE,50,89,0.5617,1,Male,White,18,1,0,0
+TTDS4,The Town That Dreaded Sundown,The Phantom,1976,70,TRUE,52,89,0.5842,1,Female,White,18,1,0,0
+TTDS5,The Town That Dreaded Sundown,The Phantom,1976,70,TRUE,68,89,0.764,1,Male,White,24,0,0,0
+TTDS6,The Town That Dreaded Sundown,The Phantom,1976,70,FALSE,NA,89,1,0,Female,White,24,0,0,0
+TTDS7,The Town That Dreaded Sundown,The Phantom,1976,70,FALSE,NA,89,1,0,Male,White,18,1,0,0
+TTDS8,The Town That Dreaded Sundown,The Phantom,1976,70,FALSE,NA,89,1,0,Female,White,18,1,0,0
+SR1,Sorority Row,Garrett Bradley,2009,0,TRUE,13,101,0.1287,1,Female,White,21,1,1,0
+SR2,Sorority Row,Kyle Tyson,2009,0,TRUE,37,101,0.3663,1,Male,White,40,1,0,0
+SR3,Sorority Row,Kyle Tyson,2009,0,TRUE,39,101,0.3861,1,Female,White,21,1,1,0
+SR4,Sorority Row,Kyle Tyson,2009,0,TRUE,46,101,0.4554,1,Female,White,21,0,1,0
+SR5,Sorority Row,Kyle Tyson,2009,0,TRUE,58,101,0.5743,1,Male,White,21,1,1,0
+SR6,Sorority Row,Kyle Tyson,2009,0,TRUE,74,101,0.7327,1,Female,Asian,21,1,1,0
+SR7,Sorority Row,Kyle Tyson,2009,0,TRUE,81,101,0.802,1,Female,White,55,0,0,1
+SR8,Sorority Row,Kyle Tyson,2009,0,TRUE,87,101,0.8614,1,Female,White,21,1,1,1
+SR9,Sorority Row,Kyle Tyson,2009,0,FALSE,NA,101,1,0,Female,White,21,1,1,1
+SR10,Sorority Row,Kyle Tyson,2009,0,FALSE,NA,101,1,0,Female,White,21,0,1,1
+SR11,Sorority Row,Kyle Tyson,2009,0,FALSE,NA,101,1,0,Female,White,18,1,1,0
